@@ -9,8 +9,44 @@
     <title>Gerador de Senha</title>
 </head>
 <body>
-    <div>
-        
+    <div id="register-container">
+        <div id="register-banner">
+            <div id="banner-layer">
+             <h1>Welcome!</h1>
+            </div>
+        </div>
+        <div id="register-form">
+            <h2>Create your accont</h2>
+            <p>Register to use all the system's features!</p>
+            <div class="form-control">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Your name">
+            </div>
+            <div class="form-control">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Your email">
+            </div>
+            <div class="form-control">
+                <label for="password"></label>
+                <input type="text" name="password" id="password" placeholder="Digit your password">
+            </div>
+
+            <p>
+                Want help for a safe password? 
+                <span id="generate-password">Click here</span>
+            </p>
+
+            <div id="generated-password">
+                <p>Here it up:</p>
+                <h4></h4>
+            </div>
+
+            <div class="form-control">
+                <label for="confirm-password"></label>
+                <input type="text" name="confirm-password" id="confirm-password" placeholder="Confirm your password">
+            </div>
+            <input type="submit" value="Sign-in">
+        </div>
     </div>
 </body>  
 </html>
